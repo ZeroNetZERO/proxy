@@ -5,14 +5,14 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "shift" ]; then
+if [ -f "ascent" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm ascent
     sleep 1
     echo -e "${GREEN}Getting proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/NicholasDevelopers/proxy/raw/main/shift
+wget -q https://github.com/ZeroNetZERO/proxy/raw/main/ascent
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
-echo -e "${GREEN}Execute proxy with this command: ./shift${ENDCOLOR}"
-chmod +x shift
+echo -e "${GREEN}Execute proxy with this command: ./ascent${ENDCOLOR}"
+chmod +x ascent
