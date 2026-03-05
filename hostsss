@@ -1,5 +1,4 @@
 [General]
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local
 
 [Rule]
 FINAL,DIRECT
@@ -9,7 +8,3 @@ www.growtopia1.com = 192.168.1.3
 www.growtopia2.com = 192.168.1.3
 growtopia1.com = 192.168.1.3
 growtopia2.com = 192.168.1.3
-
-[MITM]
-skip-server-cert-verify = true
-hostname = www.growtopia1.com, www.growtopia2.com
